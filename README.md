@@ -205,88 +205,8 @@ python3.6 TweetNLPEngine.py <mongodb_ip> <mongodb_port> <db_name> <collection_na
 
 [Register the NLP Serveice](https://cloud.google.com/natural-language/docs/quickstart#quickstart-analyze-entities-gcloud)
 
-<<<<<<< HEAD
---------
-=======
------------
-# Local Demo
-Please CD to the Demo Directory at first.
+-------------
 
-Python Environment: Python 3.6.4 Anaconda
-```shell
-#######################
-####    Scrapper    ###
-#######################
-
-#######################
-## Environment Setup ##
-#######################
-
-# download chromedriver
-wget https://chromedriver.storage.googleapis.com/2.42/chromedriver_mac64.zip
-# unzip the file
-unzip chromedriver_mac64.zip
-# modify the permission
-sudo chmod +x chromedriver
-# move the chromedriver to right directory
-sudo mv chromedriver /usr/local/bin
-# install selenium
-pip install selenium
-# install beautifulsoup
-pip install beautifulsoup4
-# install pandas
-pip install pandas
-# install numpy
-pip install numpy
-
-#######################
-###   Run Scrapper  ###
-#######################
-
-# enter the local demo directory
-cd Demo
-# run the scrapper
-python Scrapper.py 
-
-# Please check the current directory for the result
-```
-In the following part:
-1. You need one [google cloud platform account](https://accounts.google.com/signup/v2/webcreateaccount?service=ahsid&continue=https%3A%2F%2Fcloud.google.com%2Fnatural-language%2Fdocs%2Fquickstart&flowName=GlifWebSignIn&flowEntry=SignUp
-) with the nlp api enabled.
-2. download your google [ service account](
-https://cloud.google.com/natural-language/docs/quickstart#quickstart-analyze-entities-gcloud) credential into the directory - demo.
-```shell
-#######################
-# Sentiment Analyser  #
-#######################
-
-#######################
-## Environment Setup ##
-#######################
-
-# download google cloud sdk
-wget google-cloud-sdk-203.0.0-darwin-x86_64.tar.gz
-# unzip the gz file
-tar google-cloud-sdk-203.0.0-darwin-x86_64.tar.gz
-# install google cloud sdk
-./google-cloud-sdk/install.sh
-# install google cloud nlp into python 3.6
-pip install google-cloud-language --upgrade
-# export your credential absolute path to environment
-export GOOGLE_APPLICATION_CREDENTIALS=<CREDENTIAL_PATH> 
-
-#######################
-###   Run Analyser  ###
-#######################
-
-# run Sentiment py file
-python Sentiment.py
-
-# Please check the current directory for the result
-```
-
------------
->>>>>>> 1b62942bd050c976b16af1474d73abb321031c2b
 # Sample Output
 The Scrapper Output:
 <div align=center><img src="/img/result.png"/></div>
