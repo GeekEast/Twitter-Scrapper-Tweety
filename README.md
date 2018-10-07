@@ -60,7 +60,7 @@ python Scrapper.py
 
 # Please check the current directory for the result
 ```
-####In the following part:
+#### In the following part:
 1. You need one [google cloud platform account](https://accounts.google.com/signup/v2/webcreateaccount?service=ahsid&continue=https%3A%2F%2Fcloud.google.com%2Fnatural-language%2Fdocs%2Fquickstart&flowName=GlifWebSignIn&flowEntry=SignUp
 ) with the nlp api enabled.
 2. download your google [ service account](
