@@ -21,7 +21,7 @@
 Python 3.6.4 Anaconda
 ```
 
-#### Please CD to the Demo Directory at first.
+#### Please CD to the Demo Directory at first.
 
 ```shell
 #######################
