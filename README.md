@@ -12,16 +12,21 @@
 
 - Scrap tweet on **Any** topic during **Any** period of time.
 - **No** username, password, key or token required.
+- Suppport **Local Test** for both scapper and sentimeal analyser.
 - Deploy **MongoDB** in **Docker** to store the scrapped Data
 - Deploy **Google Cloud NLP** to rate the sentiment of tweets
 -----------
 # Local Test
-#### Python Environment: 
+###### Python Environment: 
 ```python
 Python 3.6.4 Anaconda
 ```
 
-#### Please CD to the Demo Directory at first.
+ Please CD to the Demo Directory at first.
+
+----
+
+###### 1. Configure and run the Scrapper
 
 ```shell
 #######################
@@ -60,7 +65,7 @@ python Scrapper.py
 
 # Please check the current directory for the result
 ```
-#### In the following part:
+###### 2. Configure and run the sentiment analyser
 1. You need one [google cloud platform account](https://accounts.google.com/signup/v2/webcreateaccount?service=ahsid&continue=https%3A%2F%2Fcloud.google.com%2Fnatural-language%2Fdocs%2Fquickstart&flowName=GlifWebSignIn&flowEntry=SignUp
 ) with the nlp api enabled.
 2. download your google [ service account](
@@ -94,6 +99,14 @@ python Sentiment.py
 
 # Please check the current directory for the result
 ```
+###### 3. Run the Scrapper and Analyser as pipline
+```shell
+# export your credential absolute path to environment
+export GOOGLE_APPLICATION_CREDENTIALS=<CREDENTIAL_PATH> 
+# run the pipeline
+python Tweety.py
+```
+
 
 -----------
 
