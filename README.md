@@ -64,7 +64,7 @@ python Scrapper.py
 
 # Please check the current directory for the result
 ```
-###### 2. Configure and run the sentiment analyser
+###### 2. Configure and run the sentiment analyser (Student)
 1. You need one [google cloud platform account](https://accounts.google.com/signup/v2/webcreateaccount?service=ahsid&continue=https%3A%2F%2Fcloud.google.com%2Fnatural-language%2Fdocs%2Fquickstart&flowName=GlifWebSignIn&flowEntry=SignUp
 ) with the nlp api enabled.
 2. download your google [ service account](
@@ -100,7 +100,7 @@ python Sentiment.py
 
 # Please check the current directory for the result
 ```
-###### 3. Run the Scrapper and Analyser as pipline
+###### 3. Run the Scrapper and Analyser as pipline (Student)
 ```shell
 # export your credential absolute path to environment
 export GOOGLE_APPLICATION_CREDENTIALS=<CREDENTIAL_PATH> 
@@ -126,7 +126,7 @@ python DataAnalysis.py
 ```
 -----------
 
-# Server Deployment
+# Server Deployment (Student)
 ### Environment:
 ```python
 Ubuntu 16.04 LTS VM
