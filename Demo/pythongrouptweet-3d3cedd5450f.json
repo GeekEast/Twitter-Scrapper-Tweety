@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pythongrouptweet",
+  "private_key_id": "3d3cedd5450fc9ac2bad3632f690cb21b7b4fa92",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRMp1cR3q9S2t8\nQPk99GXZuOOiF98bBjeyJYAvm3SoCHwHMiGpM8GMvdkmn7m9RSbNvgFqqEWYdHwT\ny6+MrlANCqu6coZ30Nagbo0xISj9jFxacSSYIUgnh+SH4/nd4FyYkw/ISR1twcp8\neyQwbz6quan+fbyyMW7aYzeLfx8VklxySyWZUXX7xR/oT9XpLMAi0/2YxDm7yu3O\nDGQDZotfJNQBHaF+v4sHmsy3ZnrcIBkN+yjUxKZToseGLXRZ8XFzAg2PhImyAq+Z\n/UpESZLzeFYHZ6jyxPyEpmm74j7YwRblwevMgPM/AOw8Kfxc9JVN2xZp+cc0XDWN\nrONBzgT9AgMBAAECggEAAp+15ZBn87Pcd0SBW8uS83YkNMZD4Bzl2fAqeW5jui/R\nDm4MigjCJrfC338lX0BcyjvV3LabmNvtKnpli0gsbN1zZfVFxn7yEjUQxEr8LqHy\nDphYsyfHtec4cJPlcGj+AFPn4MU5/0Rs+763p3vdt1p4zV5aXYnNMCQKcE953lVf\n0MBy0isxC2v2O5epoEgfJJmgC4hLXfG7nrUKr8NDUK9FM0YJH1AuL7RUcieXKf7m\nEDTEiSgVZGGe1neli5vVl/Jcm/sX4RDeW8v8EMQ+IYnKtKDmClm/CbHKZwGjlA+o\n5P8wWOi1shaPOgM3kdeoTR2YNPy5TGx1q4427qY/6QKBgQDt7Y7twEzGdKGyTAa/\n5MqxafBQ2j0iry262d/slRrrGqS8ryoeb0dKZzKfzV4USVsfCGiw0R+ufQteYVux\nkV8mXalfgVqF3DquD/zfWrIAVAyVbYjItLfL8IuI4mnIlJ95SvlaweQ9MUwsTLuI\nkiNprJuoSo8YwRCv8wy6PPkmhwKBgQDhFmekCPm4DpxfbFtkhCZw6Tvr6qVUo6ES\nbW1vFT2WUWX3YmJCfBEC/4uh3PDxmjlvZnsxB8/GfJUplWh94G8JwAbpHxMDKaLQ\nIAG0zNgSYShoBcAlnWrPlbcwVCnMUNN1iVEt+Xcmi3JQ4tX6oBRlUO4LhyV0Kn6R\nbw+AkxnVWwKBgQDK9pWwlxRnTuMI1/YCCEgoY/jO3/y687kM5gMxLFjUKdxR4RMK\n915XSAVVcLlKkPEcXe4At8RQ8vaZwm+X4CzM66UqhYwVGLMt/RF370RdJ1W8ur2u\niQso+7/sO0iGBNKtg5mHJFNxJ/aU67gmXpO697WpMEE1mqyDi9BVpuHbTQKBgELR\ngtzIKVGBTNxq70qMjFjSdA5ZrtDMbmFpCKaEOK8p5Momc6Lm76njMJFRZFlkfg5a\n7tEkT4LNsv4QM1/Cw1OypJqJtfwnXQTJq5f/g1kZbIRMyLih3XZYLHR1V58mk099\n/xJVzxArLzlhzUHESam196SGbxDoGICV5pU1leKnAoGAI1WeQRPKixYmiBLS5BhD\n3RjvNYcqijPPcPnV4JQ1+E9Vk8IdyRyFIFCBB2e3h1c0uZw71HAFN4bP5GRyAyDL\nhwbNuJlUmnAhObXnRB03ux9KHrWHWRwLTRTbDZqb6Rlp3rmLpv8Vz+mg/Da/OB7h\nsUKqnciCIjFzcREfGzQBfbA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "python-tweet-group-service@pythongrouptweet.iam.gserviceaccount.com",
+  "client_id": "117049391985763088687",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python-tweet-group-service%40pythongrouptweet.iam.gserviceaccount.com"
+}

@@ -80,7 +80,10 @@ class TweetNLPEngine:
 
 
 if __name__ == "__main__":
+    # get the key parameters from user input
     topic = input("Please enter one topic: ")
     record_limit = input("Please enter the number of record to display: ")
+    # create a analyser object
     tweet_nlp = TweetNLPEngine(topic=topic, record_limit=int(record_limit))
+    # analyse the sentiment
     tweet_nlp.analyse()

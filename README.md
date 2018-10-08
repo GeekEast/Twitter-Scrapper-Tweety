@@ -253,6 +253,8 @@ Plot and Regression
 <div align=center><img src="/img/6.png"/></div>
 <div align=center><img src="/img/7.png"/></div>
 <div align=center><img src="/img/8.png"/></div>
+<div align=center><img src="/img/8.png"/></div>
+<div align=center><img src="/img/analysis.png"/></div>
 
 ----------
 # Reference
