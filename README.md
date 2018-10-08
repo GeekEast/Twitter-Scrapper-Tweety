@@ -245,3 +245,7 @@ https://blog.csdn.net/kangaroo_07/article/details/43733891
 [[6] Combiner Multiple CSV files](
     https://blog.csdn.net/taolusi/article/details/81074105 
 )
+
+[[7] Import your py file as  package](
+    https://blog.csdn.net/wcx1293296315/article/details/81156036
+)
