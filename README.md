@@ -37,7 +37,7 @@ Python 3.6.4 Anaconda
 ## Environment Setup ##
 #######################
 
-# download chromedriver
+# download chromedriver
 wget https://chromedriver.storage.googleapis.com/2.42/chromedriver_mac64.zip
 # unzip the file
 unzip chromedriver_mac64.zip
