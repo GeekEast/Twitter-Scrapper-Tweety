@@ -249,3 +249,6 @@ https://blog.csdn.net/kangaroo_07/article/details/43733891
 [[7] Import your py file as  package](
     https://blog.csdn.net/wcx1293296315/article/details/81156036
 )
+
+[[8] Configure Jupyter Notebook on AWS](
+https://blog.csdn.net/tuzixini/article/details/79105482)
