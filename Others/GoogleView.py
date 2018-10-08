@@ -36,10 +36,4 @@ def gettrends(topic, start_date, end_date):
 
 
 if __name__ == "__main__":
-    print("input your topic")
-    topic = input()
-    print("input your start time yyyy-mm-dd")
-    stime = input()
-    print("input your end time yyyy-mm-dd")
-    etime = input()
-    gettrends(topic, stime, etime)
+    gettrends('Bitcoin', '2013-01-01', '2018-10-10')
