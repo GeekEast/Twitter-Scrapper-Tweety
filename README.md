@@ -1,9 +1,9 @@
 <div align=center><img src="/img/Tweet.jpeg"/></div>
 <div align=center>
-<img height = 170 src='/img/docker.jpeg'>
+<img height = 100 src='/img/docker.jpeg'>
 &#160&#160&#160&#160
-<img height = 170 src="/img/selenium.png"/>
-<img height = 170 src='/img/gcp.png'>
+<img height = 100 src="/img/selenium.png"/>
+<img height = 100 src='/img/gcp.png'>
 </div>
 
 -------------
@@ -19,14 +19,13 @@
 # Local Test
 ###### Python Environment: 
 ```python
-Python 3.6.4 Anaconda
+Python 3.6.4 Anaconda; Python 2.7
+
+Please CD to the Demo Directory at first.
 ```
+-----------
 
- Please CD to the Demo Directory at first.
-
-----
-
-###### 1. Configure and run the Scrapper
+###### 1. Configure and run the Scrapper (Instructor)
 
 ```shell
 #######################
@@ -80,9 +79,11 @@ https://cloud.google.com/natural-language/docs/quickstart#quickstart-analyze-ent
 #######################
 
 # download google cloud sdk
-wget google-cloud-sdk-203.0.0-darwin-x86_64.tar.gz
+wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-203.0.0-darwin-x86_64.tar.gz
 # unzip the gz file
 tar google-cloud-sdk-203.0.0-darwin-x86_64.tar.gz
+# install python2.7
+You have to install python 2.7 for google nlp engine to run
 # install google cloud sdk
 ./google-cloud-sdk/install.sh
 # install google cloud nlp into python 3.6
@@ -107,7 +108,22 @@ export GOOGLE_APPLICATION_CREDENTIALS=<CREDENTIAL_PATH>
 python Tweety.py
 ```
 
+###### 4. Data analysis (Instructor)
 
+```shell
+# Please CD to the "Result" Directory at first
+
+# RawData: Store the Scrapped Data.
+# CleanData: Store the cleaned Data.
+# Dataclean.py: python file to preprocess data
+# DataAnalysis.py.py: python file to do regression forecast
+
+# install dependencies
+pip install seaborn
+pip install sklearn
+# run the analysis
+python DataAnalysis.py
+```
 -----------
 
 # Server Deployment
@@ -221,10 +237,22 @@ python3.6 TweetNLPEngine.py <mongodb_ip> <mongodb_port> <db_name> <collection_na
 -------------
 
 # Sample Output
-The Scrapper Output:
+
+Scrapper
 <div align=center><img src="/img/result.png"/></div>
-The Sentimental Analyser Output
+
+Sentimental Analyser 
 <div align=center><img src="/img/output.png"/></div>
+
+Plot and Regression
+<div align=center><img src="/img/1.png"/></div>
+<div align=center><img src="/img/2.png"/></div>
+<div align=center><img src="/img/3.png"/></div>
+<div align=center><img src="/img/4.png"/></div>
+<div align=center><img src="/img/5.png"/></div>
+<div align=center><img src="/img/6.png"/></div>
+<div align=center><img src="/img/7.png"/></div>
+<div align=center><img src="/img/8.png"/></div>
 
 ----------
 # Reference
@@ -252,3 +280,5 @@ https://blog.csdn.net/kangaroo_07/article/details/43733891
 
 [[8] Configure Jupyter Notebook on AWS](
 https://blog.csdn.net/tuzixini/article/details/79105482)
+
+
